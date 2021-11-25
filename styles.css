@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body,
+html {
+    background: rgba(13, 26, 45, 255);
+    font-size: 18px;
+    font-family: 'Outfit';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.device {
+    background: rgba(21, 39, 63, 255);
+    border-radius: 15px;
+    box-shadow: 5px 30px 50px 15px rgb(12 23 41);
+    height: 490px;
+    margin: auto;
+    margin-top: 210px;
+    width: 295px;
+}
+
+.device .img_screen {
+    border-radius: 8px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 255px;
+}
+
+.screen .img_screen:hover {
+    background: hsl(178, 100%, 50%);
+    opacity: 0.9;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.text .main {
+    margin-top: 15px;
+}
+
+.text .main_text {
+    color: white;
+    font-weight: 600;
+}
+
+.text .main_text:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.secondary {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 13px;
+}
+
+.terciary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.terciary .left {
+    color: hsl(178, 100%, 50%);
+}
+
+.fa-ethereum {
+    float: left;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.terciary_right {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    font-size: 13px;
+}
+
+.fa-clock {
+    font-size: 11px;
+    margin-right: 6px;
+    margin-top: 3px;
+}
+
+.terciary_right span {
+    margin-right: 20px;
+}
+
+hr {
+    background-color: hsl(215, 51%, 70%);
+    border: none;
+    height: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.creator {
+    display: flex;
+}
+
+.creator .img_creator {
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 25px;
+}
+
+.creator .text_creator {
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 11px;
+    margin-top: 9px;
+}
+
+.creator .text_creator span {
+    color: #fff;
+}
+
+.creator .text_creator span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
